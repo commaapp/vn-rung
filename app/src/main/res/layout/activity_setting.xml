@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="core.mvp.activity.SettingActivity">
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="24dp">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:padding="15dp"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_back"
+            android:text="@string/setting"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_toolbar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout_notification"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="?android:selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/xmargin_left"
+                android:fontFamily="sans-serif"
+                android:text="@string/Notification"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/swt_noti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/xmargin_right" />
+
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/layout_wall_paper"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?actionBarSize"-->
+        <!--android:background="?android:selectableItemBackground">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="@dimen/xmargin_left"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:text="@string/Change_wallpaper"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="normal" />-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="?actionBarSize"-->
+        <!--android:layout_height="?actionBarSize"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:padding="18dp"-->
+        <!--android:src="@drawable/ic_ico_small_chevron_right" />-->
+
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/layout_Vibrate_color"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginBottom="@dimen/xxmargin_bottom"
+            android:background="?android:selectableItemBackground"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/xmargin_left"
+                android:fontFamily="sans-serif"
+                android:text="@string/Change_vibrator_color"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_alignParentRight="true"
+                android:padding="18dp"
+                android:src="@drawable/ic_ico_small_chevron_right" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ads_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/xxmargin_bottom"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</RelativeLayout>

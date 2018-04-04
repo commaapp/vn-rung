@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Symulator wibratora</string>
+    <string name="start_massa">POCZATEK</string>
+    <string name="stop_massa">ZATRZYMAC</string>
+    <string name="rate_us">Oceń nas 5 gwiazdek !</string>
+    <string name="lbl_later">Następnie</string>
+    <string name="lbl_rate">Ocena</string>
+    <string name="sms_thank_you_rate">Dziękuję bardzo !</string>
+
+    <string name="Notification">Powiadomienie</string>
+    <string name="Change_wallpaper">Zmień tapetę</string>
+    <string name="Change_vibrator_color">Zmień kolor serca</string>
+    <string name="setting">Instalacja</string>
+    <string name="apply">Zastosować</string>
+    <string name="vibrator_running">Wibrator Telefoniczny - Symulator Wibratora</string>
+</resources>

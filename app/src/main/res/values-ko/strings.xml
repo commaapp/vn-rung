@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">진동 시뮬레이터</string>
+    <string name="start_massa">스타트</string>
+    <string name="stop_massa">중지</string>
+    <string name="rate_us">우리에게 별 5 개를 평가 해주세요 !</string>
+    <string name="lbl_later">나중에</string>
+    <string name="lbl_rate">평가</string>
+    <string name="sms_thank_you_rate">대단히 감사합니다 !</string>
+
+    <string name="Notification">공고</string>
+    <string name="Change_wallpaper">바탕 화면 변경</string>
+    <string name="Change_vibrator_color">심장 색 변경</string>
+    <string name="setting">조정</string>
+    <string name="apply">신청</string>
+    <string name="vibrator_running">전화 진동기 - 진동기 시뮬레이터</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Симулятор вибратора</string>
+    <string name="start_massa">НАЧАЛО</string>
+    <string name="stop_massa">СТОП</string>
+    <string name="rate_us">Оцените нас 5 звезд !</string>
+    <string name="lbl_later">в другой раз</string>
+    <string name="lbl_rate">оценить</string>
+    <string name="sms_thank_you_rate">Большое спасибо !</string>
+
+    <string name="Notification">Yведомление</string>
+    <string name="Change_wallpaper">Изменить обои</string>
+    <string name="Change_vibrator_color">Изменение цвета сердца</string>
+    <string name="setting">настройки</string>
+    <string name="apply">применять</string>
+    <string name="vibrator_running">Телефонный вибратор - Симулятор вибратора</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rung Mát Xa</string>
+    <string name="start_massa">Bật</string>
+    <string name="stop_massa">Tắt</string>
+    <string name="rate_us">Vui lòng đánh giá cho chúng tôi 5 sao !</string>
+    <string name="lbl_later">Lúc khác</string>
+    <string name="lbl_rate">Đánh giá</string>
+    <string name="sms_thank_you_rate">Cảm ơn bạn!</string>
+
+    <string name="Notification">Thông báo</string>
+    <string name="Change_wallpaper">Thay đổi hình nền</string>
+    <string name="Change_vibrator_color">Thay đổi màu trái tim</string>
+    <string name="setting">Cài đặt</string>
+    <string name="apply">Thay đổi</string>
+    <string name="vibrator_running">Siêu Rung Mát Xa</string>
+</resources>

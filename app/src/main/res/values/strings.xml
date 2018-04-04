@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vibrator Simulator</string>
+    <string name="start_massa">START</string>
+    <string name="stop_massa">STOP</string>
+    <string name="rate_us">Rate Us 5 Stars !</string>
+    <string name="lbl_later">Late</string>
+    <string name="lbl_rate">Rate</string>
+    <string name="sms_thank_you_rate">Thank you very much !</string>
+
+    <string name="facebook_app_id" translatable="false">177828576111054</string>
+    <string name="Notification">Notification</string>
+    <string name="vibrate">Vibrate on while screen off</string>
+    <string name="Change_wallpaper">Change wallpaper</string>
+    <string name="Change_vibrator_color">Change vibrator color</string>
+    <string name="setting">Setting</string>
+    <string name="apply">Apply</string>
+    <string name="vibrator_running">Vibrator Simulator</string>
+</resources>

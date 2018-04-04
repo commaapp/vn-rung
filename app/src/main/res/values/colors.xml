@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimary">#00ffffff</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWhile">#ffffff</color>
+    <color name="button_color">#1d7dfc</color>
+    <color name="b7">#eac248</color>
+    <color name="colorLater">#bfbfbf</color>
+    <color name="color_text_main">#000000</color>
+    <color name="title_app">#ffffff</color>
+    <color name="color_apply">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBgSplash">#FF4081</color>
+</resources>

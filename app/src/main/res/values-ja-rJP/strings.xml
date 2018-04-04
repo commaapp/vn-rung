@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">バイブレータシミュレータ</string>
+    <string name="start_massa">開始</string>
+    <string name="stop_massa">やめる</string>
+    <string name="rate_us">料金を5スター !</string>
+    <string name="lbl_later">後で</string>
+    <string name="lbl_rate">評価</string>
+    <string name="sms_thank_you_rate">どうもありがとう !</string>
+
+    <string name="Notification">通知</string>
+    <string name="Change_wallpaper">壁紙を変更する</string>
+    <string name="Change_vibrator_color">心臓の色を変える</string>
+    <string name="setting">設定</string>
+    <string name="apply">適用</string>
+    <string name="vibrator_running">電話機バイブレータ - バイブレータシミュレータ</string>
+</resources>

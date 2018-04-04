@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">振动器模拟器</string>
+    <string name="start_massa">开始</string>
+    <string name="stop_massa">停</string>
+    <string name="rate_us">率我们5星 !</string>
+    <string name="lbl_later">其他时候</string>
+    <string name="lbl_rate">其他时候</string>
+    <string name="sms_thank_you_rate">非常感谢你 !</string>
+    <string name="Notification">通知</string>
+    <string name="Change_wallpaper">更改壁纸</string>
+    <string name="Change_vibrator_color">改变心脏颜色</string>
+    <string name="setting">设置</string>
+    <string name="apply">变化</string>
+    <string name="vibrator_running">电话振动器 - 振动器模拟器</string>
+</resources>
