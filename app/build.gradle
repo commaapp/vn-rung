@@ -22,8 +22,8 @@ android {
         applicationId "vibratoreforgirls.extremevibration.rung.matxa.vibratorsimulator.vibrator.massage"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 11
-        versionName "1.0.9"
+        versionCode 3
+        versionName "1.0.2"
     }
 
     buildTypes {
@@ -35,7 +35,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
     lintOptions {
         checkReleaseBuilds false
         abortOnError false

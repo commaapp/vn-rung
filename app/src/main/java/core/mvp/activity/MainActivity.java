@@ -1,5 +1,6 @@
 package core.mvp.activity;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -76,7 +77,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         FacebookSdk.sdkInitialize(getApplicationContext());
         ButterKnife.bind(this);
-
         appEventsLogger = AppEventsLogger.newLogger(this);
         Typeface font = Typeface.createFromAsset(getAssets(), "font_button.otf");
         txtState.setTypeface(font);
@@ -88,12 +88,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button5.setTypeface(font);
 //        logger.logEvent("Button_start_click");
 
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
 //        Config.chayRung(getBaseContext(), 1000, 1);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            Window w = getWindow(); // in Activity's onCreate() for instance
-            w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+//            Window w = getWindow(); // in Activity's onCreate() for instance
+//            w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+//        }
         imgSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -251,18 +251,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onBackPressed() {
-        boolean action = Prefs.with(getApplicationContext()).readBoolean("action");
-
-        if (!action) {
-            if (!Prefs.with(MainActivity.this).readBoolean("rate", false)) {
-                showDialogRateApp();
-            } else {
-                super.onBackPressed();
-
-            }
-        } else {
+//        boolean action = Prefs.with(getApplicationContext()).readBoolean("action");
+//
+//        if (!action) {
+//            if (!Prefs.with(MainActivity.this).readBoolean("rate", false)) {
+//                showDialogRateApp();
+//            } else {
+//                super.onBackPressed();
+//
+//            }
+//        } else {
             super.onBackPressed();
-        }
+//        }
     }
 
     @Override
